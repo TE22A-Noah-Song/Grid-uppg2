@@ -1,0 +1,46 @@
+body{
+display: grid;
+grid-template-columns: 1fr 5fr;
+grid-template-rows: 10%, 15%, 70%;
+}
+
+.logo{
+border: 2px solid black;
+max-width: 50%;
+padding-left: 50px;
+padding-right: 250px; 
+}
+
+header{
+border: 2px solid black;
+background-color: black;
+color: white;
+text-align: center;
+margin-bottom: 10px;
+}
+
+nav{
+text-align: center;
+white-space: nowrap;
+background-color: black;
+color: white;
+margin-bottom: 10px;
+}
+aside{
+    grid-row: 2/5;
+    grid-column:1/2;
+}
+
+main{
+    background-color: black;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+footer{
+border: 2px solid black;
+background-color: black;
+color: white;
+text-align: center;
+grid-column:-2/-1;
+}
